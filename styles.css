@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+h1,
+p {
+  color: skyblue;
+}
+
+form {
+  min-width: 10vw;
+  max-width: 900px;
+  background-color: skyblue;
+  color: black;
+  margin: auto;
+  padding: 2rem;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  padding: 0.5rem;
+}
+
+label {
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+
+input,
+select {
+  border-radius: 0.4rem;
+}
+
+.form__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-bottom: 1rem;
+}/*# sourceMappingURL=styles.css.map */
